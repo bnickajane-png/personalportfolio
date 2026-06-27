@@ -1,0 +1,644 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<!--
+  ============================================================
+  Nicka Jane Bacsa | Information Systems Professional
+  Premium Black & Gold Portfolio
+  Last updated: June 2026
+  ============================================================
+-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Nicka Jane Bacsa - Information Systems Professional, Business Analyst, and Cum Laude graduate specializing in systems thinking, data-driven process improvement, and project management." />
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nicka Jane Bacsa - Information Systems Professional" />
+    <meta property="og:description"
+        content="Cum Laude IS graduate specializing in business analysis, systems thinking, and data-driven process improvement." />
+    <title>Nicka Jane Bacsa - Information Systems Professional</title>
+
+    <!-- EmailJS SDK (must load before body scripts) -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- ================================================================
+         FIXED OVERLAYS: Scroll progress bar & ambient blobs
+         ================================================================ -->
+    <div id="scroll-progress" aria-hidden="true"></div>
+    <div class="bg-blob bg-blob-1" aria-hidden="true"></div>
+    <div class="bg-blob bg-blob-2" aria-hidden="true"></div>
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">&#8593;</button>
+
+
+    <!-- ================================================================
+         NAVIGATION
+         ================================================================ -->
+    <nav aria-label="Primary navigation">
+        <div class="nav-logo">Nicka Jane <span>Bacsa</span></div>
+
+        <div class="nav-right">
+            <!-- Desktop nav links -->
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <!-- Dark / light theme toggle -->
+            <button class="theme-toggle" id="theme-toggle"
+                    aria-label="Toggle theme" title="Toggle light/dark mode">&#127769;</button>
+
+            <!-- Mobile hamburger button -->
+            <button class="hamburger" id="hamburger"
+                    aria-label="Open navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile dropdown -->
+    <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+
+    <!-- ================================================================
+         HERO SECTION
+         ================================================================ -->
+    <section class="hero" id="home">
+        <!-- Particle canvas rendered by hero.js -->
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+        <div class="hero-inner">
+
+            <!-- Left: text content -->
+            <div class="hero-left">
+                <div class="hero-badge">Available for Opportunities</div>
+
+                <h1 class="hero-title">
+                    I Build<br>
+                    <span class="typewriter-wrapper">
+                        <span id="typewriter-text"></span>
+                    </span>
+                </h1>
+
+                <p class="hero-sub">
+                    Information Systems graduate <em>cum laude</em> specializing in business
+                    analysis, systems thinking, and data-driven process improvement &mdash; turning
+                    complex problems into elegant, working solutions.
+                </p>
+
+                <div class="hero-ctas">
+                    <a href="#contact" class="btn-primary">&#128236; Get in Touch</a>
+                    <a href="#projects" class="btn-outline">View My Work &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Right: profile photo -->
+            <div class="hero-photo">
+                <img src="Profile.jpeg.png"
+                     alt="Nicka Jane Bacsa - Information Systems Professional"
+                     onerror="this.style.display='none'" />
+                <div class="hero-photo-label">Available for Freelance</div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================================================================
+         STATS STRIP  (animated counters via about.js)
+         ================================================================ -->
+    <div class="stats-strip" aria-label="Key statistics">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <div class="stat-number"><span class="counter" data-target="30">0</span>+</div>
+                <div class="stat-label">UAT Requirements Validated</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number"><span class="counter" data-target="10">0</span>+</div>
+                <div class="stat-label">Stakeholders Managed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number"><span class="counter" data-target="4">0</span></div>
+                <div class="stat-label">Years on Dean's List</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number"><span class="counter" data-target="5">0</span></div>
+                <div class="stat-label">Certifications Earned</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================================================================
+         ABOUT SECTION
+         ================================================================ -->
+    <section id="about">
+        <div class="section-inner">
+            <div class="about-grid">
+
+                <!-- Left: bio text -->
+                <div class="about-text fade-up fade-left">
+                    <div class="section-label">About Me</div>
+                    <h2 class="section-title">Analyst. Builder.<br>Problem Solver.</h2>
+
+                    <p>I'm <strong>Nicka Jane Bacsa</strong>, a fresh Information Systems graduate
+                        from the University of Batangas, finishing <strong>Cum Laude</strong> with
+                        four consecutive years on the Dean's List.</p>
+
+                    <p>My strength is bridging the gap between <strong>business needs and technical
+                        systems</strong> &mdash; whether that's mapping workflows, conducting requirements
+                        engineering, validating user acceptance, or coordinating cross-functional
+                        teams to deliver on time.</p>
+
+                    <p>I thrive in structured environments where data integrity and process clarity
+                        matter. I bring both analytical rigor and communication skills to every
+                        project I touch.</p>
+                </div>
+
+                <!-- Right: highlight cards -->
+                <div class="fade-right">
+                    <div class="about-highlights stagger">
+
+                        <div class="highlight-card fade-up" style="--i: 0">
+                            <div class="highlight-icon">&#128202;</div>
+                            <div class="highlight-title">Business Analysis</div>
+                            <div class="highlight-text">Requirements gathering, process mapping, BPA,
+                                and functional documentation across multiple domains.</div>
+                        </div>
+
+                        <div class="highlight-card fade-up" style="--i: 1">
+                            <div class="highlight-icon">&#128193;</div>
+                            <div class="highlight-title">Project Management</div>
+                            <div class="highlight-text">End-to-end coordination, RAID logs, dashboards,
+                                and 100% milestone delivery track record.</div>
+                        </div>
+
+                        <div class="highlight-card fade-up" style="--i: 2">
+                            <div class="highlight-icon">&#128269;</div>
+                            <div class="highlight-title">Data &amp; Reporting</div>
+                            <div class="highlight-text">Data validation, trend analysis, pivot tables, and
+                                reporting integrity across four stakeholder groups.</div>
+                        </div>
+
+                        <div class="highlight-card fade-up" style="--i: 3">
+                            <div class="highlight-icon">&#127942;</div>
+                            <div class="highlight-title">Award-Winning Work</div>
+                            <div class="highlight-text">Best Paper Awardee, Outstanding Student, and Top
+                                15 in the Philippine Startup Challenge 9.</div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================================================
+         SKILLS / EXPERTISE
+         ================================================================ -->
+    <section id="skills">
+        <div class="section-inner">
+            <div class="section-label">Capabilities</div>
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-desc">A toolkit built through academic excellence, internship experience,
+                and award-winning project delivery.</p>
+
+            <div class="skills-grid stagger">
+
+                <div class="skill-block fade-up" style="--i: 0">
+                    <div class="skill-block-header">
+                        <div class="skill-icon">&#128208;</div>
+                        <div class="skill-block-title">Business Analysis</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Requirements Gathering</span>
+                        <span class="skill-tag">Process Mapping</span>
+                        <span class="skill-tag">Workflow Modeling</span>
+                        <span class="skill-tag">User Stories</span>
+                        <span class="skill-tag">Functional Documentation</span>
+                        <span class="skill-tag">UAT Support</span>
+                        <span class="skill-tag">BPMN</span>
+                        <span class="skill-tag">SDLC</span>
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">Systems Analysis</span>
+                    </div>
+                </div>
+
+                <div class="skill-block fade-up" style="--i: 1">
+                    <div class="skill-block-header">
+                        <div class="skill-icon">&#128203;</div>
+                        <div class="skill-block-title">Project Management</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Project Tracking</span>
+                        <span class="skill-tag">Status Reporting</span>
+                        <span class="skill-tag">Risk Management</span>
+                        <span class="skill-tag">Stakeholder Coordination</span>
+                        <span class="skill-tag">RAID Logs</span>
+                        <span class="skill-tag">Milestone Delivery</span>
+                        <span class="skill-tag">Trello</span>
+                        <span class="skill-tag">Airtable</span>
+                        <span class="skill-tag">SharePoint</span>
+                    </div>
+                </div>
+
+                <div class="skill-block fade-up" style="--i: 2">
+                    <div class="skill-block-header">
+                        <div class="skill-icon">&#128200;</div>
+                        <div class="skill-block-title">Data &amp; Reporting</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Validation</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Trend Analysis</span>
+                        <span class="skill-tag">Pivot Tables</span>
+                        <span class="skill-tag">VLOOKUP</span>
+                        <span class="skill-tag">Microsoft Excel</span>
+                        <span class="skill-tag">RapidMiner</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-block fade-up" style="--i: 3">
+                    <div class="skill-block-header">
+                        <div class="skill-icon">&#128295;</div>
+                        <div class="skill-block-title">Tools &amp; Platforms</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Microsoft 365</span>
+                        <span class="skill-tag">Teams</span>
+                        <span class="skill-tag">Lucidchart</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">ArchiMate</span>
+                        <span class="skill-tag">PowerPoint</span>
+                        <span class="skill-tag">AWS Cloud</span>
+                        <span class="skill-tag">IBM Cloud</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================================================
+         EXPERIENCE / TIMELINE
+         ================================================================ -->
+    <section id="experience">
+        <div class="section-inner">
+            <div class="section-label">Work Experience</div>
+            <h2 class="section-title">Where I've Worked</h2>
+            <p class="section-desc">Hands-on delivery across project coordination, stakeholder
+                management, and governance documentation.</p>
+
+            <div class="timeline">
+                <div class="timeline-item fade-up">
+                    <div class="timeline-dot">&#128188;</div>
+
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <div>
+                                <div class="timeline-role">Project Lead Intern</div>
+                                <div class="timeline-company">
+                                    Information Technology Center (ITC) &mdash; University of Batangas
+                                </div>
+                            </div>
+                            <div class="timeline-period">Jan 2026 &ndash; Apr 2026</div>
+                        </div>
+
+                        <ul class="timeline-bullets">
+                            <li>Coordinated end-to-end project management across
+                                <strong>3 concurrent workstreams</strong>, tracking deliverables,
+                                risks, and timelines &mdash; achieving 100% milestone completion and
+                                on-time delivery.</li>
+
+                            <li>Managed and validated multi-source data from
+                                <strong>4 stakeholder groups</strong> using structured collection
+                                and verification techniques, improving data accuracy and reporting
+                                integrity.</li>
+
+                            <li>Developed and maintained governance documentation including
+                                <strong>status reports, workflow diagrams, RAID logs, and progress
+                                dashboards</strong>, increasing project transparency and stakeholder
+                                alignment.</li>
+
+                            <li>Facilitated cross-functional collaboration between multiple
+                                departments by resolving operational bottlenecks and optimizing
+                                workflows for improved process consistency.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================================================================
+         FEATURED PROJECTS
+         ================================================================ -->
+    <section id="projects">
+        <div class="section-inner">
+            <div class="section-label">Portfolio</div>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-desc">Academic and research projects that delivered measurable results
+                and recognition.</p>
+
+            <div class="projects-grid stagger">
+
+                <!-- Project 1: UB PRIMS -->
+                <div class="project-card fade-up" style="--i: 0">
+                    <div class="project-card-top">
+                        <div class="project-icon">&#127963;</div>
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-subtitle">Capstone Project &middot; 2025&ndash;2026</div>
+                        <div class="project-title">
+                            UB PRIMS &mdash; Purchasing Request Integrated Management System
+                        </div>
+                        <p class="project-desc">Led requirements engineering for an end-to-end
+                            procurement management system. Conducted structured interviews and
+                            workshops with 10+ stakeholders, performed business process analysis on
+                            5 workflows, and executed UAT covering 30+ requirements to ensure
+                            pre-deployment quality assurance.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Business Analysis</span>
+                            <span class="project-tag">BPA</span>
+                            <span class="project-tag">UAT</span>
+                            <span class="project-tag">SDLC</span>
+                            <span class="project-tag">BPMN</span>
+                            <span class="project-tag">Stakeholder Mgmt</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: MediCrypt -->
+                <div class="project-card fade-up" style="--i: 1">
+                    <div class="project-card-top">
+                        <div class="project-icon">&#128272;</div>
+                        <div class="project-award">&#127942; Best Paper Awardee</div>
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-subtitle">Research Project &middot; 2024&ndash;2025</div>
+                        <div class="project-title">
+                            MediCrypt: Blockchain-Based Medical Records Management System
+                        </div>
+                        <p class="project-desc">Conducted systems and data security analysis on
+                            healthcare information challenges, identifying risks in data integrity,
+                            confidentiality, and access control. Developed technical documentation
+                            and system workflow models for a 5-member development team throughout
+                            the full research lifecycle.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Blockchain</span>
+                            <span class="project-tag">Data Security</span>
+                            <span class="project-tag">Systems Analysis</span>
+                            <span class="project-tag">Documentation</span>
+                            <span class="project-tag">Healthcare IT</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================================================
+         EDUCATION & CERTIFICATIONS
+         ================================================================ -->
+    <section id="education">
+        <div class="section-inner">
+            <div class="section-label">Credentials</div>
+            <h2 class="section-title">Education &amp; Certifications</h2>
+            <p class="section-desc">Academic excellence backed by industry-recognized credentials
+                from AWS, IBM, Cisco, and Six Sigma.</p>
+
+            <div class="edu-certs-grid">
+
+                <!-- Education card -->
+                <div>
+                    <div class="edu-card fade-up" style="margin-bottom: 1.5rem;">
+                        <div class="edu-header">
+                            <div class="edu-icon">&#127891;</div>
+                            <div>
+                                <div class="edu-degree">B.S. Information Systems &mdash; Cum Laude</div>
+                                <div class="edu-school">University of Batangas</div>
+                                <div class="edu-year">Graduated June 2026</div>
+                            </div>
+                        </div>
+                        <div class="edu-honors">
+                            <span class="honor-tag">&#127885; Cum Laude</span>
+                            <span class="honor-tag">&#11088; Outstanding Student 2026</span>
+                            <span class="honor-tag">&#128218; Dean's Lister 2022&ndash;2026</span>
+                            <span class="honor-tag">&#128640; PH Startup Challenge 9 &ndash; Top 15</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications list -->
+                <div class="certs-list stagger">
+                    <div class="cert-item fade-up" style="--i: 0">
+                        <div class="cert-dot"></div>
+                        <div class="cert-name">AWS Certified AI Practitioner</div>
+                        <div class="cert-issuer">Amazon Web Services</div>
+                    </div>
+                    <div class="cert-item fade-up" style="--i: 1">
+                        <div class="cert-dot"></div>
+                        <div class="cert-name">AWS Academy Cloud Foundations</div>
+                        <div class="cert-issuer">Amazon Web Services</div>
+                    </div>
+                    <div class="cert-item fade-up" style="--i: 2">
+                        <div class="cert-dot"></div>
+                        <div class="cert-name">Lean Six Sigma White Belt</div>
+                        <div class="cert-issuer">CSSC</div>
+                    </div>
+                    <div class="cert-item fade-up" style="--i: 3">
+                        <div class="cert-dot"></div>
+                        <div class="cert-name">IBM Cloud Essentials</div>
+                        <div class="cert-issuer">IBM</div>
+                    </div>
+                    <div class="cert-item fade-up" style="--i: 4">
+                        <div class="cert-dot"></div>
+                        <div class="cert-name">Cisco Cybersecurity Essentials</div>
+                        <div class="cert-issuer">Cisco</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================================================
+         CONTACT SECTION -- LOCKED -- DO NOT MODIFY
+         EmailJS: service_m2jukcn / template_zlmm8do / qTZvQcIs3U26D7h5Y
+         ================================================================ -->
+    <section id="contact">
+        <div class="section-inner">
+            <div class="contact-wrapper fade-up">
+
+                <!-- Left: contact info -->
+                <div class="contact-left">
+                    <div class="section-label">Get In Touch</div>
+                    <h2 class="section-title" style="margin-bottom: 1rem;">
+                        Let's Work<br>Together
+                    </h2>
+                    <p style="color: var(--muted); font-size: 0.95rem; line-height: 1.75;">
+                        Open to full-time roles, freelance projects, and collaboration
+                        opportunities in business analysis, project coordination, and information
+                        systems.
+                    </p>
+
+                    <div class="contact-channels">
+                        <a href="mailto:nickajanebacsa@gmail.com" class="contact-channel">
+                            <div class="contact-channel-icon">&#9993;</div>
+                            nickajanebacsa@gmail.com
+                        </a>
+                        <a href="tel:+639914571408" class="contact-channel">
+                            <div class="contact-channel-icon">&#128222;</div>
+                            0991-457-1408
+                        </a>
+                        <a href="https://linkedin.com/in/nicka-jane-bacsa-ba464039a"
+                           target="_blank" rel="noopener noreferrer" class="contact-channel">
+                            <div class="contact-channel-icon">&#128188;</div>
+                            linkedin.com/in/nicka-jane-bacsa
+                        </a>
+                        <div class="contact-channel" style="cursor: default;">
+                            <div class="contact-channel-icon">&#128205;</div>
+                            San Pascual, Batangas, Philippines
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: contact form -->
+                <div class="contact-right">
+
+                    <!-- Success message (shown after send) -->
+                    <div class="form-success" id="form-success">
+                        <div class="form-success-icon">&#9989;</div>
+                        <h3>Message Sent!</h3>
+                        <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+                        <button class="btn-primary" onclick="resetForm()"
+                                style="margin-top: 0.5rem;">Send Another &rarr;</button>
+                    </div>
+
+                    <!-- Contact form -->
+                    <form id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label class="form-label" for="form-name">Your Name</label>
+                            <input type="text" id="form-name" name="from_name"
+                                   class="form-input" placeholder="John Doe" autocomplete="name" />
+                            <span class="form-error" id="err-name">Please enter your name.</span>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 0.75rem;">
+                            <label class="form-label" for="form-email">Email Address</label>
+                            <input type="email" id="form-email" name="from_email"
+                                   class="form-input" placeholder="john@company.com" autocomplete="email" />
+                            <span class="form-error" id="err-email">Please enter a valid email address.</span>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 0.75rem;">
+                            <label class="form-label" for="form-subject">Subject</label>
+                            <input type="text" id="form-subject" name="subject"
+                                   class="form-input" placeholder="Freelance / Job Opportunity / Collaboration" />
+                            <span class="form-error" id="err-subject">Please enter a subject.</span>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 0.75rem;">
+                            <label class="form-label" for="form-message">Message</label>
+                            <textarea id="form-message" name="message" class="form-textarea"
+                                      placeholder="Tell me about your project or opportunity..."></textarea>
+                            <span class="form-error" id="err-message">
+                                Please write a message (at least 10 characters).
+                            </span>
+                        </div>
+
+                        <button type="submit" id="submit-btn" class="btn-primary"
+                                style="width: 100%; justify-content: center; margin-top: 0.75rem;">
+                            Send Message &rarr;
+                        </button>
+
+                        <span class="form-error" id="err-general"
+                              style="margin-top: 0.75rem; text-align: center;"></span>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================================================
+         FOOTER
+         ================================================================ -->
+    <footer>
+        <div class="footer-inner">
+
+            <div class="footer-brand">Nicka Jane <span>Bacsa</span></div>
+
+            <div class="footer-center">
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/nicka-jane-bacsa-ba464039a"
+                       target="_blank" rel="noopener noreferrer"
+                       title="LinkedIn" aria-label="LinkedIn">&#128188;</a>
+                    <a href="mailto:nickajanebacsa@gmail.com"
+                       title="Email" aria-label="Email">&#9993;</a>
+                </div>
+                <div class="footer-note">
+                    &copy; 2026 &middot; Designed &amp; Developed by Nicka Jane Bacsa<br>
+                    Information Systems Professional
+                </div>
+            </div>
+
+            <a href="#home" class="footer-back">&#8593; Back to top</a>
+
+        </div>
+    </footer>
+
+
+    <!-- ================================================================
+         JAVASCRIPT  (deferred — loaded in dependency order)
+         1. navigation.js  declares global 'reduced' and 'isMobile' flags
+         2. hero.js        particle canvas, typewriter, fade-in
+         3. about.js       animated stat counters
+         4. utilities.js   theme toggle, scroll reveal, card tilt
+         5. contact.js     EmailJS form handler -- LOCKED
+         ================================================================ -->
+    <script defer src="js/sections/navigation.js"></script>
+    <script defer src="js/sections/hero.js"></script>
+    <script defer src="js/sections/about.js"></script>
+    <script defer src="js/sections/utilities.js"></script>
+    <script defer src="js/sections/contact.js"></script>
+
+</body>
+</html>
