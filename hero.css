@@ -1,0 +1,225 @@
+﻿                    <div class="skill-tags">
+                        <span class="skill-tag">Microsoft 365</span>
+                        <span class="skill-tag">Teams</span>
+                        <span class="skill-tag">Lucidchart</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">ArchiMate</span>
+                        <span class="skill-tag">PowerPoint</span>
+                        <span class="skill-tag">AWS Cloud</span>
+                        <span class="skill-tag">IBM Cloud</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         EXPERIENCE / TIMELINE
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <section id="experience">
+        <div class="section-inner">
+            <div class="section-label">Work Experience</div>
+            <h2 class="section-title">Where I've Worked</h2>
+            <p class="section-desc">Hands-on delivery across project coordination, stakeholder
+                management, and governance documentation.</p>
+
+            <div class="timeline">
+                <div class="timeline-item fade-up">
+                    <div class="timeline-dot">ðŸ’¼</div>
+
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <div>
+                                <div class="timeline-role">Project Lead Intern</div>
+                                <div class="timeline-company">
+                                    Information Technology Center (ITC) â€” University of Batangas
+                                </div>
+                            </div>
+                            <div class="timeline-period">Jan 2026 â€“ Apr 2026</div>
+                        </div>
+
+                        <ul class="timeline-bullets">
+                            <li>Coordinated end-to-end project management across
+                                <strong>3 concurrent workstreams</strong>, tracking deliverables,
+                                risks, and timelines â€” achieving 100% milestone completion and
+                                on-time delivery.</li>
+
+                            <li>Managed and validated multi-source data from
+                                <strong>4 stakeholder groups</strong> using structured collection
+                                and verification techniques, improving data accuracy and reporting
+                                integrity.</li>
+
+                            <li>Developed and maintained governance documentation including
+                                <strong>status reports, workflow diagrams, RAID logs, and progress
+                                dashboards</strong>, increasing project transparency and stakeholder
+                                alignment.</li>
+
+                            <li>Facilitated cross-functional collaboration between multiple
+                                departments by resolving operational bottlenecks and optimizing
+                                workflows for improved process consistency.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         FEATURED PROJECTS
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <section id="projects">
+        <div class="section-inner">
+            <div class="section-label">Portfolio</div>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-desc">Academic and research projects that delivered measurable results
+                and recognition.</p>
+
+            <div class="projects-grid stagger">
+
+                <!-- Project 1: UB PRIMS -->
+                <div class="project-card fade-up" style="--i: 0">
+                    <div class="project-card-top">
+                        <div class="project-icon">ðŸ›ï¸</div>
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-subtitle">Capstone Project Â· 2025â€“2026</div>
+                        <div class="project-title">
+                            UB PRIMS â€“ Purchasing Request Integrated Management System
+                        </div>
+                        <p class="project-desc">Led requirements engineering for an end-to-end
+                            procurement management system. Conducted structured interviews and
+                            workshops with 10+ stakeholders, performed business process analysis on
+                            5 workflows, and executed UAT covering 30+ requirements to ensure
+                            pre-deployment quality assurance.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Business Analysis</span>
+                            <span class="project-tag">BPA</span>
+                            <span class="project-tag">UAT</span>
+                            <span class="project-tag">SDLC</span>
+                            <span class="project-tag">BPMN</span>
+                            <span class="project-tag">Stakeholder Mgmt</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: MediCrypt -->
+                <div class="project-card fade-up" style="--i: 1">
+                    <div class="project-card-top">
+                        <div class="project-icon">ðŸ”</div>
+                        <div class="project-award">ðŸ† Best Paper Awardee</div>
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-subtitle">Research Project Â· 2024â€“2025</div>
+                        <div class="project-title">
+                            MediCrypt: Blockchain-Based Medical Records Management System
+                        </div>
+                        <p class="project-desc">Conducted systems and data security analysis on
+                            healthcare information challenges, identifying risks in data integrity,
+                            confidentiality, and access control. Developed technical documentation
+                            and system workflow models for a 5-member development team throughout
+                            the full research lifecycle.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Blockchain</span>
+                            <span class="project-tag">Data Security</span>
+                            <span class="project-tag">Systems Analysis</span>
+                            <span class="project-tag">Documentation</span>
+                            <span class="project-tag">Healthcare IT</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         EDUCATION & CERTIFICATIONS
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <section id="education">
+        <div class="section-inner">
+            <div class="section-label">Credentials</div>
+            <h2 class="section-title">Education &amp; Certifications</h2>
+            <p class="section-desc">Academic excellence backed by industry-recognized credentials
+                from AWS, IBM, Cisco, and Six Sigma.</p>
+
+            <div class="edu-certs-grid">
+
+                <!-- Education -->
+                <div>
+                    <div class="edu-card fade-up" style="margin-bottom: 1.5rem;">
+                        <div class="edu-header">
+                            <div class="edu-icon">ðŸŽ“</div>
+                            <div>
+                                <div class="edu-degree">B.S. Information Systems â€” Cum Laude</div>
+                                <div class="edu-school">University of Batangas</div>
+                                <div class="edu-year">Graduated June 2026</div>
+                            </div>
+                        </div>
+                        <div class="edu-honors">
+                            <span class="honor-tag">ðŸ… Cum Laude</span>
+                            <span class="honor-tag">â­ Outstanding Student 2026</span>
+                            <span class="honor-tag">ðŸ“š Dean's Lister 2022â€“2026</span>
+                            <span class="honor-tag">ðŸš€ PH Startup Challenge 9 â€“ Top 15</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="certs-list stagger">
+                    <div class="cert-item fade-up" style="--i: 0">
+                        <div class="cert-dot"></div>
+                        <div class="cert-name">AWS Certified AI Practitioner</div>
+                        <div class="cert-issuer">Amazon Web Services</div>
+                    </div>
+                    <div class="cert-item fade-up" style="--i: 1">
+                        <div class="cert-dot"></div>
+                        <div class="cert-name">AWS Academy Cloud Foundations</div>
+                        <div class="cert-issuer">Amazon Web Services</div>
+                    </div>
+                    <div class="cert-item fade-up" style="--i: 2">
+                        <div class="cert-dot"></div>
+                        <div class="cert-name">Lean Six Sigma White Belt</div>
+                        <div class="cert-issuer">CSSC</div>
+                    </div>
+                    <div class="cert-item fade-up" style="--i: 3">
+                        <div class="cert-dot"></div>
+                        <div class="cert-name">IBM Cloud Essentials</div>
+                        <div class="cert-issuer">IBM</div>
+                    </div>
+                    <div class="cert-item fade-up" style="--i: 4">
+                        <div class="cert-dot"></div>
+                        <div class="cert-name">Cisco Cybersecurity Essentials</div>
+                        <div class="cert-issuer">Cisco</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         CONTACT SECTION  âš ï¸ LOCKED â€” DO NOT MODIFY
+         EmailJS integration: service_m2jukcn / template_zlmm8do
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <section id="contact">
+        <div class="section-inner">
+            <div class="contact-wrapper fade-up">
+
+                <!-- Left: contact info -->
+                <div class="contact-left">
+                    <div class="section-label">Get In Touch</div>
+                    <h2 class="section-title" style="margin-bottom: 1rem;">
+                        Let's Work<br>Together
+                    </h2>
+                    <p style="color: var(--muted); font-size: 0.95rem; line-height: 1.75;">
+                        Open to full-time roles, freelance projects, and collaboration
+
+@media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; }
+    .hero-photo { max-width: 340px; margin: 0 auto; }
+}

@@ -1,0 +1,200 @@
+﻿</head>
+
+<body>
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         SCROLL PROGRESS BAR & DECORATIVE BLOBS (fixed overlays)
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <div id="scroll-progress" aria-hidden="true"></div>
+    <div class="bg-blob bg-blob-1"  aria-hidden="true"></div>
+    <div class="bg-blob bg-blob-2"  aria-hidden="true"></div>
+
+    <!-- Back to top button (shown by JS after 400px scroll) -->
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">&#8593;</button>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         NAVIGATION
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <nav aria-label="Primary navigation">
+        <div class="nav-logo">Nicka Jane <span>Bacsa</span></div>
+
+        <div class="nav-right">
+            <!-- Desktop links -->
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <!-- Theme toggle -->
+            <button class="theme-toggle" id="theme-toggle"
+                    aria-label="Toggle theme" title="Toggle light/dark mode">ðŸŒ™</button>
+
+            <!-- Mobile hamburger -->
+            <button class="hamburger" id="hamburger"
+                    aria-label="Open navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile dropdown menu -->
+    <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         HERO SECTION
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <section class="hero" id="home">
+        <!-- Particle canvas drawn by JS -->
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+        <div class="hero-inner">
+            <!-- Left: text content -->
+            <div class="hero-left">
+                <div class="hero-badge">Available for Opportunities</div>
+
+                <h1 class="hero-title">
+                    I Build<br>
+                    <span class="typewriter-wrapper">
+                        opportunities in business analysis, project coordination, and information
+                        systems.
+                    </p>
+
+                    <div class="contact-channels">
+                        <a href="mailto:nickajanebacsa@gmail.com" class="contact-channel">
+                            <div class="contact-channel-icon">âœ‰ï¸</div>
+                            nickajanebacsa@gmail.com
+                        </a>
+                        <a href="tel:+639914571408" class="contact-channel">
+                            <div class="contact-channel-icon">ðŸ“ž</div>
+                            0991-457-1408
+                        </a>
+                        <a href="https://linkedin.com/in/nicka-jane-bacsa-ba464039a"
+                           target="_blank" rel="noopener noreferrer" class="contact-channel">
+                            <div class="contact-channel-icon">ðŸ’¼</div>
+                            linkedin.com/in/nicka-jane-bacsa
+                        </a>
+                        <div class="contact-channel" style="cursor: default;">
+                            <div class="contact-channel-icon">ðŸ“</div>
+                            San Pascual, Batangas, Philippines
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: contact form -->
+                <div class="contact-right">
+
+                    <!-- Success state (shown after successful send) -->
+                    <div class="form-success" id="form-success">
+                        <div class="form-success-icon">âœ…</div>
+                        <h3>Message Sent!</h3>
+                        <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+                        <button class="btn-primary" onclick="resetForm()"
+                                style="margin-top: 0.5rem;">Send Another â†’</button>
+                    </div>
+
+                    <!-- Contact form -->
+                    <form id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label class="form-label" for="form-name">Your Name</label>
+                            <input type="text" id="form-name" name="from_name"
+                                   class="form-input" placeholder="John Doe" autocomplete="name" />
+                            <span class="form-error" id="err-name">Please enter your name.</span>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 0.75rem;">
+                            <label class="form-label" for="form-email">Email Address</label>
+                            <input type="email" id="form-email" name="from_email"
+                                   class="form-input" placeholder="john@company.com" autocomplete="email" />
+                            <span class="form-error" id="err-email">Please enter a valid email address.</span>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 0.75rem;">
+                            <label class="form-label" for="form-subject">Subject</label>
+                            <input type="text" id="form-subject" name="subject"
+                                   class="form-input" placeholder="Freelance / Job Opportunity / Collaboration" />
+                            <span class="form-error" id="err-subject">Please enter a subject.</span>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 0.75rem;">
+                            <label class="form-label" for="form-message">Message</label>
+                            <textarea id="form-message" name="message" class="form-textarea"
+                                      placeholder="Tell me about your project or opportunity..."></textarea>
+                            <span class="form-error" id="err-message">
+                                Please write a message (at least 10 characters).
+                            </span>
+                        </div>
+
+                        <button type="submit" id="submit-btn" class="btn-primary"
+                                style="width: 100%; justify-content: center; margin-top: 0.75rem;">
+                            Send Message â†’
+                        </button>
+
+                        <span class="form-error" id="err-general"
+                              style="margin-top: 0.75rem; text-align: center;"></span>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         FOOTER
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <footer>
+        <div class="footer-inner">
+
+            <div class="footer-brand">Nicka Jane <span>Bacsa</span></div>
+
+            <div class="footer-center">
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/nicka-jane-bacsa-ba464039a"
+                       target="_blank" rel="noopener noreferrer"
+                       title="LinkedIn" aria-label="LinkedIn">ðŸ’¼</a>
+                    <a href="mailto:nickajanebacsa@gmail.com"
+                       title="Email" aria-label="Email">âœ‰ï¸</a>
+                </div>
+                <div class="footer-note">
+                    Â© 2026 Â· Designed &amp; Developed by Nicka Jane Bacsa<br>
+                    Information Systems Professional
+                </div>
+            </div>
+
+            <a href="#home" class="footer-back">â†‘ Back to top</a>
+
+        </div>
+    </footer>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         JAVASCRIPT
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <!-- Section Scripts -->
+    <script defer src="js/sections/navigation.js"></script>
+    <script defer src="js/sections/hero.js"></script>
+    <script defer src="js/sections/about.js"></script>
+    <script defer src="js/sections/utilities.js"></script>
+    <script defer src="js/sections/contact.js"></script>
+
+</body>
+</html>
+
+@media (max-width: 900px) {
+    section { padding: 70px 5%; }
+}

@@ -1,0 +1,4 @@
+
+@media (max-width: 900px) {
+    .projects-grid { grid-template-columns: 1fr; }
+}

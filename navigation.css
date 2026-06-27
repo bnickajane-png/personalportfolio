@@ -1,0 +1,201 @@
+﻿                        <span id="typewriter-text"></span>
+                    </span>
+                </h1>
+
+                <p class="hero-sub">
+                    Information Systems graduate <em>cum laude</em> specializing in business
+                    analysis, systems thinking, and data-driven process improvement â€” turning
+                    complex problems into elegant, working solutions.
+                </p>
+
+                <div class="hero-ctas">
+                    <a href="#contact" class="btn-primary">ðŸ“¬ Get in Touch</a>
+                    <a href="#projects" class="btn-outline">View My Work â†’</a>
+                </div>
+            </div>
+
+            <!-- Right: profile photo with animated border -->
+            <div class="hero-photo">
+                <img src="../Profile.jpeg.png"
+                     alt="Nicka Jane Bacsa â€“ Information Systems Professional"
+                     onerror="this.style.display='none'" />
+                <div class="hero-photo-label">Available for Freelance</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         STATS STRIP (animated counters)
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <div class="stats-strip" aria-label="Key statistics">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <div class="stat-number">
+                    <span class="counter" data-target="30">0</span>+
+                </div>
+                <div class="stat-label">UAT Requirements Validated</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">
+                    <span class="counter" data-target="10">0</span>+
+                </div>
+                <div class="stat-label">Stakeholders Managed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">
+                    <span class="counter" data-target="4">0</span>
+                </div>
+                <div class="stat-label">Years on Dean's List</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">
+                    <span class="counter" data-target="5">0</span>
+                </div>
+                <div class="stat-label">Certifications Earned</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         ABOUT SECTION
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <section id="about">
+        <div class="section-inner">
+            <div class="about-grid">
+
+                <!-- Left: bio text -->
+                <div class="about-text fade-up fade-left">
+                    <div class="section-label">About Me</div>
+                    <h2 class="section-title">Analyst. Builder.<br>Problem Solver.</h2>
+
+                    <p>I'm <strong>Nicka Jane Bacsa</strong>, a fresh Information Systems graduate
+                        from the University of Batangas, finishing <strong>Cum Laude</strong> with
+                        four consecutive years on the Dean's List.</p>
+
+                    <p>My strength is bridging the gap between <strong>business needs and technical
+                        systems</strong> â€” whether that's mapping workflows, conducting requirements
+                        engineering, validating user acceptance, or coordinating cross-functional
+                        teams to deliver on time.</p>
+
+                    <p>I thrive in structured environments where data integrity and process clarity
+                        matter. I bring both analytical rigor and communication skills to every
+                        project I touch.</p>
+                </div>
+
+                <!-- Right: feature cards -->
+                <div class="fade-right">
+                    <div class="about-highlights stagger">
+                        <div class="highlight-card fade-up" style="--i: 0">
+                            <div class="highlight-icon">ðŸ“Š</div>
+                            <div class="highlight-title">Business Analysis</div>
+                            <div class="highlight-text">Requirements gathering, process mapping, BPA,
+                                and functional documentation across multiple domains.</div>
+                        </div>
+
+                        <div class="highlight-card fade-up" style="--i: 1">
+                            <div class="highlight-icon">ðŸ—‚ï¸</div>
+                            <div class="highlight-title">Project Management</div>
+                            <div class="highlight-text">End-to-end coordination, RAID logs, dashboards,
+                                and 100% milestone delivery track record.</div>
+                        </div>
+
+                        <div class="highlight-card fade-up" style="--i: 2">
+                            <div class="highlight-icon">ðŸ”</div>
+                            <div class="highlight-title">Data &amp; Reporting</div>
+                            <div class="highlight-text">Data validation, trend analysis, pivot tables, and
+                                reporting integrity across four stakeholder groups.</div>
+                        </div>
+
+                        <div class="highlight-card fade-up" style="--i: 3">
+                            <div class="highlight-icon">ðŸ†</div>
+                            <div class="highlight-title">Award-Winning Work</div>
+                            <div class="highlight-text">Best Paper Awardee, Outstanding Student, and Top
+                                15 in the Philippine Startup Challenge 9.</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+         SKILLS / EXPERTISE SECTION
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+    <section id="skills">
+        <div class="section-inner">
+            <div class="section-label">Capabilities</div>
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-desc">A toolkit built through academic excellence, internship experience,
+                and award-winning project delivery.</p>
+
+            <div class="skills-grid stagger">
+
+                <div class="skill-block fade-up" style="--i: 0">
+                    <div class="skill-block-header">
+                        <div class="skill-icon">ðŸ“</div>
+                        <div class="skill-block-title">Business Analysis</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Requirements Gathering</span>
+                        <span class="skill-tag">Process Mapping</span>
+                        <span class="skill-tag">Workflow Modeling</span>
+                        <span class="skill-tag">User Stories</span>
+                        <span class="skill-tag">Functional Documentation</span>
+                        <span class="skill-tag">UAT Support</span>
+                        <span class="skill-tag">BPMN</span>
+                        <span class="skill-tag">SDLC</span>
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">Systems Analysis</span>
+                    </div>
+                </div>
+
+                <div class="skill-block fade-up" style="--i: 1">
+                    <div class="skill-block-header">
+                        <div class="skill-icon">ðŸ“‹</div>
+                        <div class="skill-block-title">Project Management</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Project Tracking</span>
+                        <span class="skill-tag">Status Reporting</span>
+                        <span class="skill-tag">Risk Management</span>
+                        <span class="skill-tag">Stakeholder Coordination</span>
+                        <span class="skill-tag">RAID Logs</span>
+                        <span class="skill-tag">Milestone Delivery</span>
+                        <span class="skill-tag">Trello</span>
+                        <span class="skill-tag">Airtable</span>
+                        <span class="skill-tag">SharePoint</span>
+                    </div>
+                </div>
+
+                <div class="skill-block fade-up" style="--i: 2">
+                    <div class="skill-block-header">
+                        <div class="skill-icon">ðŸ“ˆ</div>
+                        <div class="skill-block-title">Data &amp; Reporting</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Validation</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Trend Analysis</span>
+                        <span class="skill-tag">Pivot Tables</span>
+                        <span class="skill-tag">VLOOKUP</span>
+                        <span class="skill-tag">Microsoft Excel</span>
+                        <span class="skill-tag">RapidMiner</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-block fade-up" style="--i: 3">
+                    <div class="skill-block-header">
+                        <div class="skill-icon">ðŸ› ï¸</div>
+                        <div class="skill-block-title">Tools &amp; Platforms</div>
+                    </div>
+
+@media (max-width: 900px) {
+    nav { padding: 0 5%; }
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+}

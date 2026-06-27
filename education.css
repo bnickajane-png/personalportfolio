@@ -1,0 +1,4 @@
+
+@media (max-width: 900px) {
+    .edu-certs-grid { grid-template-columns: 1fr; }
+}
